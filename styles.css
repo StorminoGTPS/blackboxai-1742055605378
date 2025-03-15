@@ -1,0 +1,12 @@
+/* Custom styles for the betting website */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #1f2937; /* Gray-800 */
+}
+
+button {
+    transition: background-color 0.3s;
+}
