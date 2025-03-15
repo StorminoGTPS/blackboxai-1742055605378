@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="p-4 bg-gray-800">
+        <h1 class="text-3xl font-bold">Betting Website</h1>
+        <nav class="mt-2">
+            <a href="#plinko" class="mr-4">Plinko</a>
+            <a href="#crash" class="mr-4">Crash</a>
+            <a href="#deposit" class="mr-4">Deposit</a>
+        </nav>
+    </header>
+    <main class="p-4">
+        <section id="plinko" class="my-8">
+            <h2 class="text-2xl font-semibold">Plinko</h2>
+            <div class="border border-gray-700 p-4">
+                <!-- Plinko game will be implemented here -->
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Play Plinko</button>
+            </div>
+        </section>
+        <section id="crash" class="my-8">
+            <h2 class="text-2xl font-semibold">Crash</h2>
+            <div class="border border-gray-700 p-4">
+                <!-- Crash game will be implemented here -->
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Play Crash</button>
+            </div>
+        </section>
+        <section id="deposit" class="my-8">
+            <h2 class="text-2xl font-semibold">Deposit</h2>
+            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Deposit Funds</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
